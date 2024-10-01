@@ -5,11 +5,11 @@ Inspiration from [frontendmentor](https://www.frontendmentor.io/challenges/produ
 
 
 ```batch
-python3 -m venv myvenv
+python -m venv myvenv
 ```
 
 ```batch
-myvenv\Source\bin\activate
+myvenv\Scripts\activate
 ```
 
 ```batch
@@ -25,5 +25,15 @@ npm i
 ```
 
 ```batch
+npm run build
+```
+
+# All
+```
+python -m venv myvenv
+myvenv\Scripts\activate
+pip install -r requirements.txt
+cd backend\frontend
+npm i
 npm run build
 ```
