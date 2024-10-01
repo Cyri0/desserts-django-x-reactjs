@@ -36,4 +36,7 @@ pip install -r requirements.txt
 cd backend\frontend
 npm i
 npm run build
+cd ..
+python manage.py runserver
+
 ```
